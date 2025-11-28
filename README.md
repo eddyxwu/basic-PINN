@@ -1,5 +1,7 @@
 # Project
 
+<img width="1276" height="957" alt="flow_velocity" src="https://github.com/user-attachments/assets/4e560d4b-20b6-4f1b-a2be-718bc92b94d5" />
+
 Implement a Physics-Informed Neural Network (PINN) in **PyTorch** to solve the **2D Navier-Stokes Equation** (Flow Past a Cylinder).
 
 ## Guide
