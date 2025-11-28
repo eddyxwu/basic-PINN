@@ -6,16 +6,8 @@ Implement a Physics-Informed Neural Network (PINN) in **PyTorch** to solve the *
 
 ### Compute Resources
 
-* **For University students:** We will primarily use the university High-Performance Computing (HPC) cluster.
-
-    1.  **Request an account:** Complete the cluster registration form via your department.
-    2.  **Read the docs:** Review the generic SLURM guide or your cluster's specific wiki to understand GPU job submission.
-    3.  We recommend using **NVIDIA A100 or V100** nodes for faster convergence during hyperparameter sweeps.
-
-* **For external students:** You may use Google Colab (Pro recommended) or Kaggle Kernels.
-
-    1.  Please ensure you enable GPU acceleration (T4 or P100) in your notebook settings.
-    2.  While PINNs are less memory-hungry than DiTs, they are computationally intensive regarding gradient calculations (computing higher-order derivatives).
+* **For University students:** Feel free to use university resources as allowed. Recommend **NVIDIA A100 or V100** nodes for faster convergence during hyperparameter sweeps.
+* **For external students:** You may use Google Colab or Kaggle Kernels.
 
 ### PyTorch
 
