@@ -7,7 +7,7 @@ Implement a Physics-Informed Neural Network (PINN) in **PyTorch** to solve the *
 ### Compute Resources
 
 * **For University students:** Feel free to use university resources as allowed.
-* **For external students:** You may use Google Colab or Kaggle Kernels.
+* **For external students:** Try using Google Colab or Kaggle Kernels.
 
 ### PyTorch
 
