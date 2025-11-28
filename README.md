@@ -27,7 +27,7 @@ You should use [PyTorch](https://pytorch.org/).
 
 You should understand the background knowledge:
 * Neural Networks as functional approximators and Partial Differential Equations (PDEs).
-* The seminal paper: *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations*.
+* The seminal paper: [*Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations*](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125).
 * **Collocation Methods** and how to construct a loss function composed of a **Data Loss** ($MSE_u$) and a **Physics Loss** ($MSE_f$).
 
 ## Goal
