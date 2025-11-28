@@ -42,10 +42,3 @@ Below is the target visualization: reconstruction of the wake dynamics behind th
 
 
 **More advanced:** Tweak the architecture to optimize convergence speed and accuracy, but **stay within 10,000 trainable parameters**. You might investigate techniques like Fourier Feature Embeddings or Adaptive Activation Functions to capture high-frequency turbulence.
-
-## Outline
-
-* The `forward` pass that outputs $u, v, p$ (velocity and pressure).
-* The derivative calculation using `torch.autograd.grad` to construct the Navier-Stokes residuals (momentum and continuity equations).
-* The training loop.
-
