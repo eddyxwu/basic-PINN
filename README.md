@@ -6,7 +6,7 @@ Implement a Physics-Informed Neural Network (PINN) in **PyTorch** to solve the *
 
 ### Compute Resources
 
-* **For University students:** Feel free to use university resources as allowed. Recommend **NVIDIA A100 or V100** nodes for faster convergence during hyperparameter sweeps.
+* **For University students:** Feel free to use university resources as allowed.
 * **For external students:** You may use Google Colab or Kaggle Kernels.
 
 ### PyTorch
