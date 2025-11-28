@@ -39,26 +39,9 @@ Below is the target visualization: reconstruction of the wake dynamics behind th
 
 **More advanced:** Tweak the architecture to optimize convergence speed and accuracy, but **stay within 10,000 trainable parameters**. You might investigate techniques like Fourier Feature Embeddings or Adaptive Activation Functions to capture high-frequency turbulence.
 
-## Instructions
+## Outline
 
-* Create a private GitHub repository.
-* Work independently.
-* Feel free to refer to other resources or tutorials (e.g., DeepXDE logic), but you must write the PyTorch code yourself.
-* **Implement the codebase yourself as much as possible**, specifically:
-    * The `forward` pass that outputs $u, v, p$ (velocity and pressure).
-    * The derivative calculation using `torch.autograd.grad` to construct the Navier-Stokes residuals (momentum and continuity equations).
-    * The training loop.
-* You may use AI or refer to others' code in an assisting capacity only, and you should be able to explain all the code.
+* The `forward` pass that outputs $u, v, p$ (velocity and pressure).
+* The derivative calculation using `torch.autograd.grad` to construct the Navier-Stokes residuals (momentum and continuity equations).
+* The training loop.
 
-## Weekly Reports
-
-Submit a weekly report (within 3 pages each week, keep in the same Google Doc) at the end of each week.
-
-* Feel free to structure it yourself: you can include progress (e.g., "Implemented boundary conditions"), issues / solutions, results, plots (heatmaps of the flow field), or negative results.
-* **Crucial:** Plot the "Physics Loss" and "Data Loss" separately to monitor if the physics constraints are actually being learned.
-* Please clearly indicate in which parts of the code you used others' code (link source) or AI, and in what capacity.
-
-## Contact
-
-Please send your weekly reports to the Instructor/TA email.
-* You can schedule an initial meeting to discuss the formulation of the Navier-Stokes residuals if you are unfamiliar with fluid dynamics.
