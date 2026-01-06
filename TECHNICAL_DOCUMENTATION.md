@@ -1,13 +1,13 @@
 # Technical Documentation: Physics-Informed Neural Network for 2D Navier-Stokes Flow Past a Cylinder
 
-**Author:** PINN Implementation Team
+**Author:** Eddy
 **Date:** January 2026
 **Framework:** PyTorch 2.0+
 **Problem Domain:** Computational Fluid Dynamics
 
 ---
 
-## Executive Summary
+## High Level Summary
 
 This document provides comprehensive technical documentation for a Physics-Informed Neural Network (PINN) implementation that solves the 2D incompressible Navier-Stokes equations for flow past a circular cylinder. The implementation achieves accurate flow field reconstruction by training a neural network to simultaneously satisfy physical laws (PDEs) and boundary conditions, eliminating the need for traditional mesh-based CFD solvers.
 
@@ -943,8 +943,3 @@ pinn_navier_stokes.py (835 lines)
         └── Model saving
 ```
 
----
-
-**Document Version:** 1.0
-**Last Updated:** January 2026
-**Contact:** PINN Implementation Team
